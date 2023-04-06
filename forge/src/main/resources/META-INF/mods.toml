@@ -1,0 +1,21 @@
+modLoader = "javafml"
+loaderVersion = "[40,]"
+issueTrackerURL = "https://github.com/TropheusJ/clean_slate"
+license = "MIT"
+
+[[mods]]
+modId = "clean_slate"
+version = "${version}"
+displayName = "Clean Slate"
+authors = "Tropheus Jay"
+description = '''
+Allows for filtering data from datapacks by namespace and reloader
+'''
+logoFile = "icon.png"
+
+[[dependencies.clean_slate]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.18.2,]"
+ordering = "NONE"
+side = "BOTH"

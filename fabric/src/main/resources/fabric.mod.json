@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "clean_slate",
+  "version": "${version}",
+  "name": "Clean Slate",
+  "description": "Allows for filtering data from datapacks by namespace and reloader",
+  "authors": [
+    "Tropheus Jay",
+    "Patbox"
+  ],
+  "contact": {
+    "sources": "https://github.com/TropheusJ/clean_slate"
+  },
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.tropheusj.clean_slate.fabric.CleanSlateImpl"
+    ]
+  },
+  "mixins": [
+    "clean_slate.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "1.18.2"
+  }
+}
